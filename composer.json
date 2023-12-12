@@ -1,0 +1,7 @@
+{
+    "require": {
+        "r3m_io/framework": "dev-root"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
