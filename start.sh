@@ -5,12 +5,12 @@ echo "mkdir -p /Application/Bin" >> ~/.bashrc
 echo "composer install -n" >> ~/.bashrc
 echo "cp /Application/vendor/r3m_io/framework/Bin/R3m.php /Application/Bin/R3m.php" >> ~/.bashrc
 echo "php /Application/Bin/R3m.php bin r3m" >> ~/.bashrc
-#echo "wat install r3m_io/node" >> ~/.bashrc
-#echo "wat install r3m_io/event" >> ~/.bashrc
-#echo "wat install r3m_io/config" >> ~/.bashrc
-#echo "wat install r3m_io/autoload" >> ~/.bashrc
-#echo "wat install r3m_io/log" >> ~/.bashrc
-#echo "wat install r3m_io/host" >> ~/.bashrc
+echo "r3m install r3m_io/node" >> ~/.bashrc
+echo "r3m install r3m_io/event" >> ~/.bashrc
+echo "r3m install r3m_io/config" >> ~/.bashrc
+echo "r3m install r3m_io/autoload" >> ~/.bashrc
+echo "r3m install r3m_io/log" >> ~/.bashrc
+echo "r3m install r3m_io/host" >> ~/.bashrc
 #echo "wat init --url=/mnt/Vps2/Data/Init/Init" >> ~/.bashrc
 echo "chown root:root /Application/start.sh" >> ~/.bashrc
 echo "chown root:root /Application/enter.sh" >> ~/.bashrc

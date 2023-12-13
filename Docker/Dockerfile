@@ -22,35 +22,34 @@ RUN composer self-update
 
 COPY . /Application
 
-#RUN apt-get update && apt-get install \
-#    lsb-release \
-#    apt-transport-https \
-#    apt-utils \
-#    ca-certificates \
-#    git \
-#    software-properties-common -y
+RUN apt-get update && apt-get install \
+    lsb-release \
+    apt-transport-https \
+    apt-utils \
+    ca-certificates \
+    git \
+    software-properties-common -y
 
 # ADD sury pacakges for apache2 and php8.2, php8.3
-#RUN wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
-#RUN sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
+RUN wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+RUN sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
 
 RUN apt-get update && apt-get install apache2 \
-    git \
-    php8.2 \
-    php8.2-fpm \
-    php8.2-common \
-    php8.2-mysqli \
-    php8.2-pdo \
-    php8.2-gd \
-    php8.2-intl \
-    php8.2-imap \
-    php8.2-sockets \
-    php8.2-opcache \
-    php8.2-mbstring \
-    php8.2-readline \
-    php8.2-curl \
-    php8.2-zip \
-    php8.2-xml \
+    php8.3 \
+    php8.3-fpm \
+    php8.3-common \
+    php8.3-mysqli \
+    php8.3-pdo \
+    php8.3-gd \
+    php8.3-intl \
+    php8.3-imap \
+    php8.3-sockets \
+    php8.3-opcache \
+    php8.3-mbstring \
+    php8.3-readline \
+    php8.3-curl \
+    php8.3-zip \
+    php8.3-xml \
     libapache2-mod-fcgid -y
 
 # Execute start script
