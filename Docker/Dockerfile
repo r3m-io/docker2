@@ -20,8 +20,6 @@ RUN composer self-update
 # ffmpeg
 #RUN apt-get update && apt-get install ffmpeg -y
 
-COPY . /Application
-
 RUN apt-get update && apt-get install \
     lsb-release \
     apt-transport-https \
@@ -51,6 +49,8 @@ RUN apt-get update && apt-get install apache2 \
     php8.3-zip \
     php8.3-xml \
     libapache2-mod-fcgid -y
+
+COPY . /Application
 
 # Execute start script
 RUN chmod +x /Application/start.sh
