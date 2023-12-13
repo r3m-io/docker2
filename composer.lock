@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f852f938755f1756c7eb3becf988105",
+    "content-hash": "70e33b9556696fc2d72644d6670ac757",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -1722,16 +1722,16 @@
         },
         {
             "name": "r3m_io/event",
-            "version": "0.0.1",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/r3m-io/event.git",
-                "reference": "5c3051e0a459e3893878f6a3e3aa86ab2e343949"
+                "reference": "5e0a80642c774c7fd9e1d8092899fd53d8273f83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/r3m-io/event/zipball/5c3051e0a459e3893878f6a3e3aa86ab2e343949",
-                "reference": "5c3051e0a459e3893878f6a3e3aa86ab2e343949",
+                "url": "https://api.github.com/repos/r3m-io/event/zipball/5e0a80642c774c7fd9e1d8092899fd53d8273f83",
+                "reference": "5e0a80642c774c7fd9e1d8092899fd53d8273f83",
                 "shasum": ""
             },
             "require": {
@@ -1740,6 +1740,7 @@
                 "ext-zlib": "*",
                 "r3m_io/framework": "*"
             },
+            "default-branch": true,
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1763,9 +1764,9 @@
             ],
             "support": {
                 "issues": "https://github.com/r3m-io/event/issues",
-                "source": "https://github.com/r3m-io/event/tree/0.0.1"
+                "source": "https://github.com/r3m-io/event/tree/main"
             },
-            "time": "2023-08-09T05:22:12+00:00"
+            "time": "2023-12-12T17:40:36+00:00"
         },
         {
             "name": "r3m_io/framework",
@@ -1773,12 +1774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/r3m-io/framework.git",
-                "reference": "8dceead1a58a055a49c950089c40cb91cb846bb2"
+                "reference": "407da9298efe4235f7edf948df7cc5e4d49a9f67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/r3m-io/framework/zipball/8dceead1a58a055a49c950089c40cb91cb846bb2",
-                "reference": "8dceead1a58a055a49c950089c40cb91cb846bb2",
+                "url": "https://api.github.com/repos/r3m-io/framework/zipball/407da9298efe4235f7edf948df7cc5e4d49a9f67",
+                "reference": "407da9298efe4235f7edf948df7cc5e4d49a9f67",
                 "shasum": ""
             },
             "require": {
@@ -1803,6 +1804,7 @@
                 "r3m_io/middleware": "*",
                 "r3m_io/node": "*",
                 "r3m_io/output.filter": "*",
+                "r3m_io/route": "*",
                 "r3m_io/server": "*"
             },
             "default-branch": true,
@@ -1837,7 +1839,7 @@
                 "issues": "https://github.com/r3m-io/framework/issues",
                 "source": "https://github.com/r3m-io/framework/tree/root"
             },
-            "time": "2023-12-12T22:48:39+00:00"
+            "time": "2023-12-13T15:06:00+00:00"
         },
         {
             "name": "r3m_io/host",
@@ -2083,6 +2085,52 @@
                 "source": "https://github.com/r3m-io/output.filter/tree/main"
             },
             "time": "2023-12-12T21:09:50+00:00"
+        },
+        {
+            "name": "r3m_io/route",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/r3m-io/route.git",
+                "reference": "646fbdcd46a67b0e6f02c211e511c164309f6f72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/r3m-io/route/zipball/646fbdcd46a67b0e6f02c211e511c164309f6f72",
+                "reference": "646fbdcd46a67b0e6f02c211e511c164309f6f72",
+                "shasum": ""
+            },
+            "require": {
+                "r3m_io/framework": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Remco van der Velde",
+                    "email": "development@universeorange.com"
+                }
+            ],
+            "description": "r3m_io/route see https://r3m.io for detailed usage",
+            "homepage": "https://r3m.io",
+            "keywords": [
+                "framework",
+                "library",
+                "node",
+                "r3m",
+                "r3m.io",
+                "route",
+                "router"
+            ],
+            "support": {
+                "issues": "https://github.com/r3m-io/route/issues",
+                "source": "https://github.com/r3m-io/route/tree/main"
+            },
+            "time": "2023-12-13T15:08:20+00:00"
         },
         {
             "name": "r3m_io/server",
@@ -4401,7 +4449,12 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "r3m_io/framework": 20
+        "r3m_io/framework": 20,
+        "r3m_io/node": 20,
+        "r3m_io/event": 20,
+        "r3m_io/config": 20,
+        "r3m_io/log": 20,
+        "r3m_io/host": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
