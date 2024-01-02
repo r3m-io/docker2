@@ -1,0 +1,65 @@
+{
+    "System": {
+        "Config": {
+            "Service": {
+                "create": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Service",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "put": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Service",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "patch": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Service",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

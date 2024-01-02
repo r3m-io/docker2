@@ -1,0 +1,226 @@
+{
+    "System": {
+        "Config": {
+            "count": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "create": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "create_many": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "list": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "page": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "patch": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "patch_many": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "put": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "put_many": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "read": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            },
+            "record": {
+                "expose": [
+                    {
+                        "role": "ROLE_SYSTEM",
+                        "property": [
+                            "uuid",
+                            "#class",
+                            "server",
+                            "service",
+                            "ramdisk",
+                            "email",
+                            "response",
+                            "autoload",
+                            "framework",
+                            "doctrine",
+                            "log"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

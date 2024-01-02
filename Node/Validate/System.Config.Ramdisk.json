@@ -1,0 +1,65 @@
+{
+    "System": {
+        "Config": {
+            "Ramdisk": {
+                "create": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Ramdisk",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "put": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Ramdisk",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "patch": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Ramdisk",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

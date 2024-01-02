@@ -1,0 +1,204 @@
+{
+    "System": {
+        "Route": [
+            {
+                "uuid": "7f51d081-a35d-4522-8251-43bcbbb19d11",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-boot",
+                "controller": "Package:R3m:Io:Boot:Controller:Cli:run",
+                "path": "r3m_io\/boot",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "63279dc2-f49a-44d9-aae4-24053a52016b",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-node",
+                "controller": "Package:R3m:Io:Node:Controller:Cli:run",
+                "path": "r3m_io\/node",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "a7a6bd91-7a53-488e-ba25-e5aa15a9491b",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-route",
+                "controller": "Package:R3m:Io:Route:Controller:Cli:run",
+                "path": "r3m_io\/route",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "7c3fbd8e-837e-428b-95bd-3701007cac00",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-config",
+                "controller": "Package:R3m:Io:Config:Controller:Cli:run",
+                "path": "r3m_io\/config",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "4e890f61-428a-426e-93f5-eaa3de56742e",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-event",
+                "controller": "Package:R3m:Io:Event:Controller:Cli:run",
+                "path": "r3m_io\/event",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "98f90888-7316-4e4c-856e-cf2392b9bff7",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-middleware",
+                "controller": "Package:R3m:Io:Middleware:Controller:Cli:run",
+                "path": "r3m_io\/middleware",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "2917555f-4640-49e3-99b3-bcd2a4cdd070",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-output-filter",
+                "controller": "Package:R3m:Io:Output:Filter:Controller:Cli:run",
+                "path": "r3m_io\/output_filter",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "48b97084-bf90-4db7-a23c-ae3dd3107b12",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-autoload",
+                "controller": "Package:R3m:Io:Autoload:Controller:Cli:run",
+                "path": "r3m_io\/autoload",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "360187d6-afc4-4c6e-a539-345b3da21872",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-server",
+                "controller": "Package:R3m:Io:Server:Controller:Cli:run",
+                "path": "r3m_io\/server",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "466e0bee-ae3a-45fe-a153-47572e5a6bec",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-log",
+                "controller": "Package:R3m:Io:Log:Controller:Cli:run",
+                "path": "r3m_io\/log",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "87ea19aa-baba-4e3f-8ce5-95b781eb19cd",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-host",
+                "controller": "Package.R3m.Io.Host.Controller.Cli.run",
+                "path": "r3m_io\/host",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "54220c60-8548-4b45-a321-fe2d14027946",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-basic",
+                "controller": "Package:R3m:Io:Basic:Controller:Cli:run",
+                "path": "r3m_io\/basic",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "5211b585-1827-41c6-ad19-a1a537431862",
+                "#class": "System.Route",
+                "name": "r3m-io-cli-example",
+                "controller": "Package:R3m:Io:Example:Controller:Cli:run",
+                "path": "r3m_io\/example",
+                "priority": 1001,
+                "method": [
+                    "CLI"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            },
+            {
+                "uuid": "cf020c63-249b-416d-8e1f-017fd62b5063",
+                "#class": "System.Route",
+                "name": "index",
+                "host": "example.com",
+                "controller": "Domain:Example.Com:Controller:Index:main",
+                "path": "\/",
+                "priority": 2001,
+                "method": [
+                    "GET",
+                    "POST"
+                ],
+                "request": {
+                    "language": "en"
+                }
+            }
+        ]
+    }
+}

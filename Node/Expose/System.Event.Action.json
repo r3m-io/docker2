@@ -1,0 +1,151 @@
+{
+    "System": {
+        "Event": {
+            "Action": {
+                "count": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "create": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "create_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "list": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "page": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "patch": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "patch_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "put": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "put_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "read": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "record": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

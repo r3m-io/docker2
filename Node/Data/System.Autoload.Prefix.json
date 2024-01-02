@@ -1,0 +1,92 @@
+{
+    "System": {
+        "Autoload": {
+            "Prefix": [
+                {
+                    "uuid": "301ada44-c359-4b01-8968-24280178711c",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Domain",
+                    "directory": "{{config('project.dir.domain')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "b804f4d7-3c32-488e-ab37-9128ee7bca0d",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Source",
+                    "directory": "{{config('project.dir.source')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "685077fb-f2d8-4358-be67-ff1032d15d90",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Doctrine",
+                    "directory": "{{config('project.dir.source')}}Doctrine\/",
+                    "extension": ""
+                },
+                {
+                    "uuid": "2356b709-2886-44b1-a86b-9db921857e22",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Entity",
+                    "directory": "{{config('project.dir.source')}}Entity\/",
+                    "extension": ""
+                },
+                {
+                    "uuid": "adc72650-79b3-4c99-a2a9-26f96fa1e86f",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Event",
+                    "directory": "{{config('project.dir.event')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "bf835ee9-b51b-48f1-8773-3bc3f25ee03d",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Middleware",
+                    "directory": "{{config('project.dir.middleware')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "c1895d96-e32b-4dce-9201-3cec3305403d",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Output\\Filter",
+                    "directory": "{{config('project.dir.output.filter')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "15a13240-3d7e-49bd-a4fe-a4726b1e3fe3",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "ORM",
+                    "directory": "{{config('project.dir.source')}}ORM\/",
+                    "extension": ""
+                },
+                {
+                    "uuid": "521c5a77-7690-429d-92e1-da5d650d6730",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Package",
+                    "directory": "{{config('project.dir.package')}}",
+                    "extension": ""
+                },
+                {
+                    "uuid": "5d88650d-9002-47f7-9b8b-d8d83d707194",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "R3m\\Io\\Module\\Compile",
+                    "directory": "{{config('ramdisk.url')}}{{config('posix.id')}}\/Compile\/",
+                    "extension": ""
+                },
+                {
+                    "uuid": "4a540f4f-275a-40dd-aa2c-de2faae100f7",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Repository",
+                    "directory": "{{config('project.dir.source')}}Repository\/",
+                    "extension": ""
+                },
+                {
+                    "uuid": "721c2711-418e-4dd9-b0b8-74a8e7395391",
+                    "#class": "System.Autoload.Prefix",
+                    "prefix": "Symfony",
+                    "directory": "{{config('project.dir.source')}}Symfony\/",
+                    "extension": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "System": {
+        "Autoload": {
+            "Prefix": {
+                "count": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "create": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "create_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "list": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "page": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "patch": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "patch_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "put": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "put_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "read": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                },
+                "record": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "prefix",
+                                "directory",
+                                "extension"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

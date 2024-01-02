@@ -1,0 +1,63 @@
+{
+    "System": {
+        "Config": {
+            "create": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Config",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "put": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Config",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "patch": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Config",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "System": {
+        "Host": [
+            {
+                "uuid": "211274ec-5141-44ec-92d6-40c04e83e166",
+                "name": "Example.Com",
+                "domain": "example",
+                "extension": "com",
+                "url": {
+                    "development": "https:\/\/example.local\/",
+                    "production": "https:\/\/example.com\/"
+                },
+                "#class": "System.Host"
+            }
+        ]
+    }
+}

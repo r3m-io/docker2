@@ -1,0 +1,105 @@
+{
+    "Node": {
+        "#class": "System.Config.Ramdisk",
+        "type": "object",
+        "property": [
+            {
+                "name": "file",
+                "type": "object",
+                "property": [
+                    {
+                        "name": "extension",
+                        "type": "object",
+                        "property": [
+                            {
+                                "name": "allow",
+                                "type": "array"
+                            },
+                            {
+                                "name": "deny",
+                                "type": "array"
+                            }
+                        ],
+                        "multiple": false
+                    },
+                    {
+                        "name": "size",
+                        "type": "object",
+                        "property": [
+                            {
+                                "name": "max",
+                                "type": "int"
+                            }
+                        ],
+                        "multiple": false
+                    }
+                ],
+                "multiple": false
+            },
+            {
+                "name": "autoload",
+                "type": "object",
+                "property": [
+                    {
+                        "name": "exclude",
+                        "type": "object",
+                        "property": [
+                            {
+                                "name": "load",
+                                "type": "array"
+                            },
+                            {
+                                "name": "content",
+                                "type": "array"
+                            }
+                        ],
+                        "multiple": false
+                    },
+                    {
+                        "name": "require",
+                        "type": "array"
+                    },
+                    {
+                        "name": "prefix",
+                        "type": "array"
+                    }
+                ],
+                "multiple": false
+            },
+            {
+                "name": "parse",
+                "type": "object",
+                "property": [
+                    {
+                        "name": "tree",
+                        "type": "boolean"
+                    }
+                ],
+                "multiple": false
+            },
+            {
+                "name": "size",
+                "type": "string"
+            },
+            {
+                "name": "url",
+                "type": "string"
+            },
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "#class"
+    ]
+}

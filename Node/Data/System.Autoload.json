@@ -1,0 +1,11 @@
+{
+    "System": {
+        "Autoload": [
+            {
+                "uuid": "3820285f-b756-49fc-8763-c36e16902cca",
+                "#class": "System.Autoload",
+                "prefix": "*"
+            }
+        ]
+    }
+}

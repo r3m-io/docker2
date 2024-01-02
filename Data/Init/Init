@@ -1,0 +1,17 @@
+--configure-temp-directory
+--backup-apache2
+--configure-apache2
+--configure-public-create
+--configure-doctrine
+--restore-lets-encrypt
+--renew-lets-encrypt
+--restore-apache2
+--restart-apache2
+--restart-php
+--install-cron
+--doctrine-orm:generate-proxies
+--restore-ssh
+--configure-git
+--restore-git
+--restore-symlink
+--restore-youtube

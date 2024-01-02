@@ -1,0 +1,65 @@
+{
+    "System": {
+        "Autoload": {
+            "Prefix": {
+                "create": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "prefix": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Autoload.Prefix",
+                                    "attribute": [
+                                        "prefix"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "put": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "prefix": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Autoload.Prefix",
+                                    "attribute": [
+                                        "prefix"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "patch": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "prefix": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Autoload.Prefix",
+                                    "attribute": [
+                                        "prefix"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

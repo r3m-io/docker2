@@ -1,0 +1,76 @@
+{
+    "System": {
+        "Middleware": {
+            "create": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "route": [
+                        {
+                            "is.unique": {
+                                "class": "System.Middleware",
+                                "attribute": [
+                                    "route",
+                                    "options.priority"
+                                ]
+                            }
+                        }
+                    ],
+                    "options": {
+                        "priority": [
+                            {
+                                "integer": ">0"
+                            },
+                            {
+                                "integer": "<65536"
+                            }
+                        ]
+                    }
+                }
+            },
+            "put": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "route": [
+                        {
+                            "is.unique": {
+                                "class": "System.Middleware",
+                                "attribute": [
+                                    "route",
+                                    "options.priority"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "patch": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "route": [
+                        {
+                            "is.unique": {
+                                "class": "System.Middleware",
+                                "attribute": [
+                                    "route",
+                                    "options.priority"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

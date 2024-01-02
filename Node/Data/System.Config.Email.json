@@ -1,0 +1,16 @@
+{
+    "System": {
+        "Config": {
+            "Email": [
+                {
+                    "uuid": "2abd1e9e-b025-4d45-86c0-c1e01681f6c0",
+                    "#class": "System.Config.Email",
+                    "queue": {
+                        "amount_per_minute": 40,
+                        "wait_inactive": 20
+                    }
+                }
+            ]
+        }
+    }
+}

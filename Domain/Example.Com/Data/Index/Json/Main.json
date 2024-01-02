@@ -1,0 +1,29 @@
+{
+    "build" : "1",
+    "class" : "{{config('controller.class')}}",
+    "function" : "{{config('controller.function')}}",
+    "template" : {
+        "name" : "{{file.basename($this.#rootNode.class)}}/{{$this.#rootNode.function|uppercase.first|replace:'_':'.'}}",
+        "url" : "{{config('controller.dir.view')}}{{$this.name}}.tpl"
+    },
+    "menu" : {
+        "name" : "menu",
+        "title" : "{{$this.name|uppercase.first}}"
+    },
+    "navigation" : {
+        "name" : "navigation",
+        "title" : "{{$this.name|uppercase.first}}",
+        "category" : [
+            "start",
+            "basic",
+            "deeper",
+            "security",
+            "database",
+            "packages"
+        ]
+    },
+    "set" : {
+        "menu" : "{{data.set('menu', $this.#rootNode.menu)}}",
+        "navigation" : "{{data.set('navigation', $this.#rootNode.navigation)}}"
+    }
+}

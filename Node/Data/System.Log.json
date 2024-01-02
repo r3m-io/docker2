@@ -1,0 +1,128 @@
+{
+    "System": {
+        "Log": [
+            {
+                "uuid": "a2c45807-fae9-4e0b-8292-be1524ab0c0b",
+                "#class": "System.Log",
+                "name": "app",
+                "default": true,
+                "handler": [
+                    "0a36ca31-458b-40d3-845c-be81b59a0ad0"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [
+                    "security",
+                    "fileRequest"
+                ],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "92bd7b60-04cd-404c-a43e-512f8cbfd4bf",
+                "#class": "System.Log",
+                "name": "debug",
+                "default": false,
+                "handler": [
+                    "6b0c9c51-82df-4b02-96e9-70d49e3a7643"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "b8a81e8e-66ee-4a6c-bc64-b5f45c8735c8",
+                "#class": "System.Log",
+                "name": "error",
+                "default": false,
+                "handler": [
+                    "6109eecf-bcf9-46b4-84ec-9d4700422553"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "d5f0b4e1-41b6-4490-aff7-dde127e51086",
+                "#class": "System.Log",
+                "name": "email",
+                "default": false,
+                "handler": [
+                    "840ec725-fee6-4191-a9e1-7bc088f4b321"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "a1dc0b71-f456-43a4-bdc4-6bb90a3df567",
+                "#class": "System.Log",
+                "name": "node",
+                "default": false,
+                "handler": [
+                    "dc91243b-c7e7-473b-8434-7bfb4cfe727b"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "da8cb51e-fb42-4996-84dd-232ca94ed5fa",
+                "#class": "System.Log",
+                "name": "sql",
+                "default": false,
+                "handler": [
+                    "4ba5082b-29ec-4641-827b-d59f41f4dd98"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            },
+            {
+                "uuid": "56991505-eba5-4a6f-b6d8-518ae8456494",
+                "#class": "System.Log",
+                "name": "system",
+                "default": false,
+                "handler": [
+                    "c7aa2169-7970-4be8-84e3-b7778206ccb1"
+                ],
+                "processor": [
+                    "d90d10f6-33c8-4aaf-a501-240bce0fcfbe"
+                ],
+                "channel": [],
+                "options": {
+                    "class": "Monolog\\Logger",
+                    "parameters": []
+                }
+            }
+        ]
+    }
+}

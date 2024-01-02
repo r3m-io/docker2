@@ -1,0 +1,27 @@
+{
+    "Node": {
+        "#class": "System.Framework",
+        "type": "object",
+        "property": [
+            {
+                "name": "api",
+                "type": "string"
+            },
+            {
+                "name": "environment",
+                "type": "string"
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "#class"
+    ]
+}

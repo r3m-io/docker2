@@ -1,0 +1,38 @@
+{
+    "Node": {
+        "#class": "System.Output.Filter",
+        "type": "object",
+        "property": [
+            {
+                "name": "route",
+                "type": "string"
+            },
+            {
+                "name": "options",
+                "type": "object",
+                "property": [
+                    {
+                        "name": "controller",
+                        "type": "array"
+                    },
+                    {
+                        "name": "priority",
+                        "type": "int"
+                    }
+                ],
+                "multiple": false
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "route, options.priority"
+    ]
+}

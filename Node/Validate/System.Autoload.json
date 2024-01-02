@@ -1,0 +1,63 @@
+{
+    "System": {
+        "Autoload": {
+            "create": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Autoload",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "put": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Autoload",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "patch": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "#class": [
+                        {
+                            "is.unique": {
+                                "class": "System.Autoload",
+                                "attribute": [
+                                    "#class"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -5,7 +5,15 @@
         "r3m_io/event": "dev-main",
         "r3m_io/config": "dev-main",
         "r3m_io/log": "dev-main",
-        "r3m_io/host": "dev-main"
+        "r3m_io/host": "dev-main",
+        "r3m_io/route": "dev-main",
+        "r3m_io/autoload": "dev-main",
+        "r3m_io/middleware": "dev-main",
+        "r3m_io/output_filter": "dev-main",
+        "r3m_io/boot": "dev-main",
+        "r3m_io/server": "dev-main",
+        "r3m_io/basic": "dev-main",
+        "r3m_io/example": "dev-main"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

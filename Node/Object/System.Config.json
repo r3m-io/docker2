@@ -1,0 +1,128 @@
+{
+    "Node": {
+        "#class": "System.Config",
+        "type": "object",
+        "property": [
+            {
+                "name": "autoload",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "doctrine",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "email",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "framework",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "log",
+                "type": "array",
+                "relation": true,
+                "is_multiple": true
+            },
+            {
+                "name": "ramdisk",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "response",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "server",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "service",
+                "type": "uuid",
+                "relation": true,
+                "is_multiple": false
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "#class"
+    ],
+    "relation": [
+        {
+            "type": "one-one",
+            "class": "System.Autoload",
+            "attribute": "autoload"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Doctrine",
+            "attribute": "doctrine"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Config.Email",
+            "attribute": "email"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Config.Framework",
+            "attribute": "framework"
+        },
+        {
+            "type": "one-many",
+            "class": "System.Log",
+            "attribute": "log",
+            "sort": {
+                "name": "ASC"
+            },
+            "output": {
+                "filter":[
+                    "R3m:Io:Output:Filter:System:Log:output.filter"
+                ]
+            }
+        },
+        {
+            "type": "one-one",
+            "class": "System.Config.Ramdisk",
+            "attribute": "ramdisk"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Config.Response",
+            "attribute": "response"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Server",
+            "attribute": "server"
+        },
+        {
+            "type": "one-one",
+            "class": "System.Config.Service",
+            "attribute": "service"
+        }
+    ]
+}

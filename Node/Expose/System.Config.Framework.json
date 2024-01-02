@@ -1,0 +1,151 @@
+{
+    "System": {
+        "Config": {
+            "Framework": {
+                "count": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "create": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "create_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "list": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "page": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "patch": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "patch_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "put": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "put_many": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "read": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                },
+                "record": {
+                    "expose": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "api",
+                                "environment"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

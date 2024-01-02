@@ -1,0 +1,28 @@
+{
+    "build" : "1",
+    "class" : "{{config('controller.class')}}",
+    "function" : "{{config('controller.function')}}",
+    "script" : [
+        "<script src=\"{{server.url('script.r3m.io')}}Js\/Priya\/Latest\/Priya.js?{{config('framework.version')}}.{{$this.build}}\"></script>"
+    ],
+    "link" : [
+        "<link rel=\"stylesheet\" href=\"{{server.url('about.r3m.io')}}{{file.basename($this.class)}}\/Css\/{{$this.function|uppercase.first|replace:'_':'.'}}.css?{{config('framework.version')}}.{{$this.build}}\">",
+        "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\">",
+        "<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap\" rel=\"stylesheet\">"
+    ],
+    "template" : {
+        "name" : "{{file.basename($this.#rootNode.class)}}/{{$this.#rootNode.function|uppercase.first|replace:'_':'.'}}",
+        "url" : "{{config('controller.dir.view')}}{{$this.name}}.tpl"
+    },
+    "html" : {
+        "content" : {
+            "body" : "{{require($this.#rootNode.template.url)}}"
+        },
+        "head" : {
+            "author" : "{{$meta.author}}",
+            "title" : "{{$meta.title}} {{config('framework.version')}}.{{$this.#rootNode.build}}",
+            "description" : "{{$meta.description}}",
+            "keywords" : "{{$meta.keywords}}"
+        }
+    }
+}

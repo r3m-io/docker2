@@ -1,0 +1,14 @@
+{
+    "System": {
+        "Config": {
+            "Framework": [
+                {
+                    "uuid": "112d1247-f487-4cea-98d9-3c98338ea989",
+                    "#class": "System.Config.Framework",
+                    "api": "api",
+                    "environment": "development"
+                }
+            ]
+        }
+    }
+}

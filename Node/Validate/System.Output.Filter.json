@@ -1,0 +1,78 @@
+{
+    "System": {
+        "Output": {
+            "Filter": {
+                "create": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "route": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Output.Filter",
+                                    "attribute": [
+                                        "route",
+                                        "options.priority"
+                                    ]
+                                }
+                            }
+                        ],
+                        "options": {
+                            "priority": [
+                                {
+                                    "integer": ">0"
+                                },
+                                {
+                                    "integer": "<65536"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "put": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "route": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Output.Filter",
+                                    "attribute": [
+                                        "route",
+                                        "options.priority"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "patch": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "route": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Output.Filter",
+                                    "attribute": [
+                                        "route",
+                                        "options.priority"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

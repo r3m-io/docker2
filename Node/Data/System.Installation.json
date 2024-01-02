@@ -1,0 +1,90 @@
+{
+    "System": {
+        "Installation": [
+            {
+                "uuid": "aed94684-ae49-4a57-876a-a5906cf5b356",
+                "#class": "System.Installation",
+                "name": "r3m_io\/node",
+                "mtime": 1704215575,
+                "ctime": 1703982820
+            },
+            {
+                "uuid": "34e8e01d-7a56-43d7-9974-ad7911fad0bd",
+                "#class": "System.Installation",
+                "name": "r3m_io\/route",
+                "mtime": 1704215576,
+                "ctime": 1703982821
+            },
+            {
+                "uuid": "fdae888d-3759-49c4-ad26-5525410bd126",
+                "#class": "System.Installation",
+                "name": "r3m_io\/config",
+                "mtime": 1704220356,
+                "ctime": 1703982822
+            },
+            {
+                "uuid": "f89809a8-63a1-474e-b2a6-67bec6193b14",
+                "#class": "System.Installation",
+                "name": "r3m_io\/event",
+                "mtime": 1704215578,
+                "ctime": 1703982823
+            },
+            {
+                "uuid": "152b009e-0502-4e57-8936-fb24d978e182",
+                "#class": "System.Installation",
+                "name": "r3m_io\/middleware",
+                "mtime": 1704215582,
+                "ctime": 1703982824
+            },
+            {
+                "uuid": "6bb2758e-e266-4c10-bc69-7994da3b52e2",
+                "#class": "System.Installation",
+                "name": "r3m_io\/output_filter",
+                "mtime": 1704215583,
+                "ctime": 1703982825
+            },
+            {
+                "uuid": "d0467c00-9b95-4899-8676-5b7eee64cec3",
+                "#class": "System.Installation",
+                "name": "r3m_io\/autoload",
+                "mtime": 1704215584,
+                "ctime": 1703982826
+            },
+            {
+                "uuid": "db6b5b43-fcec-4619-93ed-817434df6009",
+                "#class": "System.Installation",
+                "name": "r3m_io\/server",
+                "mtime": 1704215586,
+                "ctime": 1703982828
+            },
+            {
+                "uuid": "9503896e-7762-4964-bf1a-933e73f50a6d",
+                "#class": "System.Installation",
+                "name": "r3m_io\/log",
+                "mtime": 1704215588,
+                "ctime": 1703982830
+            },
+            {
+                "uuid": "f25173a8-34f7-4c60-bd79-ca0ae6421772",
+                "#class": "System.Installation",
+                "name": "r3m_io\/host",
+                "mtime": 1704215590,
+                "ctime": 1703982832
+            },
+            {
+                "uuid": "2fc026a0-4f8c-48d6-871f-a58a1a8afcbf",
+                "#class": "System.Installation",
+                "name": "r3m_io\/basic",
+                "mtime": 1704215592,
+                "ctime": 1703982834
+            },
+            {
+                "uuid": "e9391d3a-b4af-48bc-938f-44e007a4bcbd",
+                "#class": "System.Installation",
+                "name": "r3m_io\/example",
+                "mtime": 1704051623,
+                "ctime": 1703982867
+            }
+        ]
+    }
+}

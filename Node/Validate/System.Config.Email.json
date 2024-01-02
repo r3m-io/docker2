@@ -1,0 +1,65 @@
+{
+    "System": {
+        "Config": {
+            "Email": {
+                "create": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Email",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "put": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Email",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "patch": {
+                    "validate": {
+                        "uuid": [
+                            {
+                                "is.uuid": true
+                            }
+                        ],
+                        "#class": [
+                            {
+                                "is.unique": {
+                                    "class": "System.Config.Email",
+                                    "attribute": [
+                                        "#class"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

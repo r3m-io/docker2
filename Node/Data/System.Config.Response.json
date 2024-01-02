@@ -1,0 +1,17 @@
+{
+    "System": {
+        "Config": {
+            "Response": [
+                {
+                    "uuid": "f17c79f6-8aa9-4486-ae7d-6fedc6632f4c",
+                    "#class": "System.Config.Response",
+                    "text\/html": {
+                        "header": [
+                            "Cache-Control: max-age=180"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

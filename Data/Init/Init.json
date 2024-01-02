@@ -1,0 +1,134 @@
+{
+  "Init" : [
+    {
+      "name": "configure-public-create",
+      "controller": "Event:R3m:Io:Framework:Configure:public.create",
+      "priority": 1
+    },
+    {
+      "name": "restore-public-create",
+      "controller": "Event:R3m:Io:Framework:Restore:public.create",
+      "priority": 2
+    },
+    {
+      "name": "restore-ssh",
+      "controller": "Event:R3m:Io:Framework:Ssh:restore",
+      "priority": 3
+    },
+    {
+      "name": "install-cron",
+      "controller": "Event:R3m:Io:Framework:Cron:install",
+      "priority": 4
+    },
+    {
+      "name": "restore-lets-encrypt",
+      "controller": "Event:R3m:Io:Framework:LetsEncrypt:restore",
+      "priority": 5
+    },
+    {
+      "name": "restore-apache2",
+      "controller": "Event:R3m:Io:Framework:Apache2:restore",
+      "priority": 6
+    },
+    {
+      "name": "backup-apache2",
+      "controller": "Event:R3m:Io:Framework:Apache2:backup",
+      "priority": 7
+    },
+    {
+      "name": "renew-lets-encrypt",
+      "controller": "Event:R3m:Io:Framework:LetsEncrypt:renew",
+      "priority": 8
+    },
+    {
+      "name": "configure-apache2",
+      "controller": "Event:R3m:Io:Framework:Apache2:configure",
+      "priority": 9
+    },
+    {
+      "name": "configure-doctrine",
+      "controller": "Event:R3m:Io:Framework:Doctrine:configure",
+      "priority": 10
+    },
+    {
+      "name": "restore-doctrine",
+      "controller": "Event:R3m:Io:Framework:Doctrine:restore",
+      "priority": 11
+    },
+    {
+      "name": "restart-apache2",
+      "controller": "Event:R3m:Io:Framework:Apache2:restart",
+      "priority": 12
+    },
+    {
+      "name": "backup-php",
+      "controller": "Event:R3m:Io:Framework:Php:backup",
+      "priority": 13
+    },
+    {
+      "name": "restore-php",
+      "controller": "Event:R3m:Io:Framework:Php:restore",
+      "priority": 14
+    },
+    {
+      "name": "restart-php",
+      "controller": "Event:R3m:Io:Framework:Php:restart",
+      "priority": 15
+    },
+    {
+      "name": "restart-cron",
+      "controller": "Event:R3m:Io:Framework:Cron:restart",
+      "priority": 16
+    },
+    {
+      "name": "start-cron",
+      "controller": "Event:R3m:Io:Framework:Cron:start",
+      "priority": 17
+    },
+    {
+      "name": "doctrine-orm-generate-proxies",
+      "controller": "Event:R3m:Io:Framework:Doctrine:orm.generate.proxies",
+      "priority": 18
+    },
+    {
+      "name": "configure-git",
+      "controller": "Event:R3m:Io:Framework:Git:configure",
+      "priority": 19
+    },
+    {
+      "name": "restore-git",
+      "controller": "Event:R3m:Io:Framework:Git:restore",
+      "priority": 20
+    },
+    {
+      "name": "restore-symlink",
+      "controller": "Event:R3m:Io:Framework:Symlink:restore",
+      "priority": 21
+    },
+    {
+      "name": "export-utf8",
+      "controller": "Event:R3m:Io:Framework:Utf8:export",
+      "priority": 22
+    },
+    {
+      "name": "configure-temp-directory",
+      "controller": "Event:R3m:Io:Framework:TempDirectory:configure",
+      "priority": 23
+    },
+    {
+      "name": "backup-lets-encrypt",
+      "controller": "Event:R3m:Io:Framework:LetsEncrypt:backup",
+      "priority": 24
+    },
+    {
+      "name": "restore-youtube",
+      "controller": "Event:R3m:Io:Framework:Youtube:restore",
+      "priority": 25
+    },
+    {
+      "name": "restart-system",
+      "controller": "Event:R3m:Io:System:Restart:execute",
+      "priority": 1000000
+    }
+  ]
+}
