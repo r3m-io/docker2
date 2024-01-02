@@ -1,3 +1,12 @@
 .idea
 vendor
 Bin
+Data
+Domain
+Event
+Log
+Middleware
+Node
+Output
+Package
+Public
